@@ -698,6 +698,10 @@ body {
     .social-media-list {
         padding: 0;
     }
+
+    .footer {        
+        bottom: -1.5rem;        
+    }
 }
 
 @keyframes animStar {
