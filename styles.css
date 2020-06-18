@@ -108,6 +108,10 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.fa-linkedin:hover {
+    color: #0e76a8;
+ }
+
 .fa-envelope-square:hover {
     color: #ccc;
 }
