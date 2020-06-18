@@ -28,14 +28,17 @@ body {
     height: 32vh;
     min-width: 45rem;
     max-width: 80.1rem;
-    text-align: center;        
-    padding-left: 10px;
+    text-align: center;
     color: #fafafa;
 }
 
 .heading {
+    position: relative;
     background: rgba(0, 0, 0, 0.8);
     font-family: 'PT Sans', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0.3px 0 0.3px 0;
 }
 
 .heading .title {
@@ -665,7 +668,7 @@ body {
 @media screen and (max-width: 1330px) {
     .container {        
         top: 25%;
-        height: 35vh;        
+        height: 27vh;        
     }
 }
 
@@ -685,7 +688,7 @@ body {
     .container {
         width: 100vw;        
         min-width: 30rem;
-        height: 35vh;
+        height: 40vh;
         padding: 0;
         margin: 0;
     }
