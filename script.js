@@ -6,8 +6,6 @@ let portugueseElements = selectAll('.portuguese');
 flagImages = [...flagImages]
 englishElements = [...englishElements]
 portugueseElements = [...portugueseElements]
-
-console.log(flagImages)
  
 flagImages.map(flag => {
     flag.addEventListener('click', () => {
