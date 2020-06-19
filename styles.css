@@ -56,7 +56,6 @@ body {
 
 .content {
     padding: 1.5rem;
-    margin: 1rem 0;
     font-size: 1.5rem;
 }
 
@@ -75,6 +74,7 @@ body {
     justify-content: center;
     text-align: center;
     font-size: 2.5rem;
+    padding: 0;
 }
 
 .social-media-list li {
@@ -114,6 +114,23 @@ body {
 
 .fa-envelope-square:hover {
     color: #ccc;
+}
+
+.language {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.language img {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.disabled {
+    display: none;
 }
 
 #stars {
@@ -674,7 +691,7 @@ body {
 @media screen and (max-width: 1330px) {
     .container {        
         top: 25%;
-        height: 27vh;        
+        height: 35vh;        
     }
 }
 
